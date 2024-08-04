@@ -1,0 +1,30 @@
+.npay__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.npay__brand div {
+    flex: 1;
+    max-width: 170px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(126, 145, 155);
+}
+
+.icon{
+    color: rgb(126, 145, 155);
+    margin-right: 7px; 
+    width: 30px;
+    height: auto;
+}

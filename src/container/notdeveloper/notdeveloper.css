@@ -1,0 +1,75 @@
+/* src/components/NotDeveloper/notDeveloper.css */
+.not-developer-container {
+    width: 100%;
+    padding: 2rem;
+    
+}
+
+.not-developer-heading {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+}
+
+.not-developer-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color:var(--color-blog);
+    font-family: var(--font-family);
+}
+
+.not-developer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.not-developer-steps {
+    flex: 1;
+    text-align: left;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.not-developer-steps h4 {
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+    font-family: var(--font-family);
+}
+
+
+.not-developer-steps a{
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.not-developer-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.not-developer-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    .not-developer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .not-developer-image img {
+        max-width: 100%;
+    }
+}
